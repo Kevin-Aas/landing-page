@@ -128,4 +128,28 @@ button {
 
 .quote-block {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 400px;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 1000px;
+}
+
+.quote-signature {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
 }
