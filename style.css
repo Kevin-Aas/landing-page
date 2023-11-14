@@ -100,6 +100,7 @@ button {
     align-items: center;
     justify-content: flex-start;
     flex-basis: 450px;
+    padding-bottom: 24px;
 }
 
 .info-header {
@@ -138,7 +139,7 @@ button {
 .quote-block {
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-basis: 400px;
@@ -147,14 +148,15 @@ button {
 .quote-text {
     display: flex;
     flex-direction: column;
+    flex-basis: 1000px;
     gap: 14px;
+    padding: 24px;
 }
 
 .quote {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    width: 1000px;
 }
 
 .quote-signature {
