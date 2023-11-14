@@ -111,7 +111,7 @@ button {
 
 .info-wedges {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 48px;
     flex-wrap: wrap;
 }
@@ -147,6 +147,7 @@ button {
 .quote-text {
     display: flex;
     flex-direction: column;
+    gap: 14px;
 }
 
 .quote {
@@ -165,20 +166,22 @@ button {
 
 .signup-block {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-basis: 300px;
 }
 
 .signup-card {
-    width: 1200px;
-    height: 150px;
+    flex-basis: 1200px;
+    height: 140px;
     border-radius: 10px;
     background-color: #3882F6;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 8px;
+    padding: 18px;
 }
 
 .signup-text {
@@ -188,6 +191,7 @@ button {
 .signup-header {
     font-size: 28px;
     font-weight: bold;
+    margin-bottom: 4px;
 }
 
 .signup-subtext {
